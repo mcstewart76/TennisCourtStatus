@@ -10,9 +10,9 @@ const handleClick = () => setNav(!nav)
                     <h1 className='text-3xl font-bold mr-4 sm:text-4xl'>Tennis Court Status</h1>
                     <ul className='hidden md:flex'>
                         <li>Home</li>
-                        <li>About</li>
                         <li>Maps</li>
                         <li>Search</li>
+                        <li>About</li>
                     </ul>
                 </div>
                 <div className='md:hidden' onClick={handleClick}>
